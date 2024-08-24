@@ -1,0 +1,19 @@
+@media screen and (max-width:1166px) {
+    
+    main {
+        display: grid;
+        grid-template-columns: 330px;
+        grid-template-rows: 220px 220px 220px 220px;
+    }
+
+    .responsive {
+        margin-top: 5%;
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    footer {
+        margin: 4% 0% 4% 0%;
+    }
+
+}
